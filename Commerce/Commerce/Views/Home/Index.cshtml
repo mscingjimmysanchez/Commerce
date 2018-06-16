@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Commerce</h1>
+    <p class="lead">The shortcut to e-commerce.</p>
+    <p><a href="https://www.Commerce-commerce.com" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Products</h2>
+        <p>
+            All operations about our products.
+        </p>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "Products")">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Categories</h2>
+        <p>All operations about the categories of our products.</p>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "Categories")">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Orders</h2>
+        <p>All operations about the orders of our products.</p>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "Orders")">Learn more &raquo;</a></p>
+    </div>
+</div>
