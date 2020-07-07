@@ -1,2 +1,2 @@
 # Commerce
-A website for a commerce.
+Website for a commerce.
